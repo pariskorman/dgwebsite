@@ -1,0 +1,733 @@
+
+html, body {
+    border: 0;
+  	font-family: 'Sorts Mill Goudy', serif;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    background-color: #FEFEFE;
+}
+
+body {
+    height: 100%;
+    font-size: 100%;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+
+h4 {
+    font-size: 36px;
+    color: #9DCFE5;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+    color: #222;
+    letter-spacing: .08em;
+}
+
+a {
+    text-decoration: none;
+    color: #9DCFE5;
+}
+
+h6 {
+    font-size: 18px;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+}
+
+/**NAV*/
+
+.overlay {
+    visibility: hidden;
+}
+
+#hamburger {
+    visibility: hidden;
+}
+
+#nav {
+    background-color: #FEFEFE;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    line-height: 0.8em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: .1em;
+    margin-bottom: -4em;
+}
+
+#dgtitle {
+    color: #9DCFE5;
+    font-family: 'Sorts Mill Goudy', serif;
+    letter-spacing: 0.15em;
+    font-size: 32px;
+}
+
+span.navlinks {
+    font-size: 14px;
+    letter-spacing: .15em;
+    font-weight: 400;
+    padding: 2em;
+    text-transform: uppercase;
+}
+
+span.navlinks a {
+    color: #222;
+    text-decoration: none;
+}
+
+span.navlinks a:hover {
+    color: #9DCFE5;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 50px;
+    text-align: left;
+    font-size: 90%;
+    background-color: rgba(255,255,255,.5);
+    text-transform: uppercase;
+    margin-top: .5em;
+}
+
+.dropdown-content a {
+    padding: 1em 2em 1em 2em ;
+    text-decoration: none;
+    display: block;
+    color: #222;
+    z-index: 5;
+}
+
+.dropdown-content a:hover {
+    background-color: #9DCFE5;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    z-index: 5;
+}
+
+.dropdown:hover {
+    border: 0;
+}
+
+/**HEADER*/
+header {
+    max-width: 100%;
+    color: white;
+}
+
+header img{
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    margin-top: -5em;
+}
+
+header h2 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 96px;
+    letter-spacing: 0.05em;
+    line-height: 1.15em;
+    font-weight: 400;
+    padding-top: 3em;
+    position: relative;
+    z-index: 5;
+    text-align: center;
+}
+
+header h3 {
+    position: relative;
+    z-index: 10;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    margin-top: -3em;
+    text-transform: uppercase;
+    font-size: 150%;
+    letter-spacing: .15em;
+}
+
+/**content*/
+.spacer {
+    height: 4em;
+}
+
+.content {
+    padding: 0 6em 6em 6em;
+}
+
+.content p {
+    text-align: justify;
+}
+
+#welcome {
+    position: relative;
+    margin-top: 7em;
+    text-align: justify;
+    letter-spacing: .08em;
+}
+
+#welcome h4{
+    line-height: .15em;
+}
+
+.left {
+    float: left;
+}
+
+#description {
+    width: 65%;
+}
+
+.right {
+    float: right;
+}
+
+#jackets {
+    width: 30%;
+}
+
+/*about*/
+
+#ayah {
+    float:right;
+    width: 25%;
+    padding-right: 3em;
+    padding-left: -1em;
+}
+
+#letter {
+    float:left;
+    width: 65%;
+}
+
+/** page break */
+hr { 
+    display: block;
+    margin-top: 28em;
+    margin-bottom: 0.5em;
+    width: 75%;
+    color: rgb(128, 128, 128);
+    position: relative;
+    size: 1;
+    
+} 
+
+/*facts*/
+#funfacts {
+    width: 15%;
+    margin-right:-5%;
+    margin-top: 4em;
+}
+
+#motto {
+    width:65%;
+    padding-right: 6%;
+    margin-top: 4em;
+    text-align: center;
+}
+
+#motto h2{
+    line-height: .01em;
+    margin-bottom: -2em;
+}
+
+#motto h5{
+    font-size: 400%;
+    color: #9DCFE5;
+    line-height: 0em;
+    margin-bottom: 1em;
+}
+
+#gridpictures {
+    width: 100%;
+    margin-left: 15%;
+}
+
+
+.gridpic {
+    float: left;
+    width:175px;     
+    height:175px;    
+    overflow:hidden;  
+    padding-left: 2%;
+}
+
+/*history*/ 
+
+#historypic img{
+    width: 100%;
+}
+
+.centered {
+    margin:auto;
+    text-align: center;
+}
+
+#historygrid {
+    width: 100%;
+    padding: 0 1em 0 1em;
+}
+
+.histgrid {
+    width: 30%;
+    margin: 1%;
+}
+
+/*team*/ 
+.member {
+    width: 30%;
+    margin: 1%;
+    text-align: center;
+}
+
+.member img{
+    width: 80%;
+}
+
+.member h2{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: .15em;
+}
+
+.member h5{
+    font-family: 'Dosis', sans-serif;
+    font-size: 14px;
+    line-height: .15em;
+}
+
+/*alumnae*/
+
+#vintage {
+    margin: auto;
+    padding: 2em;
+}
+
+#vintage img{
+    width: 40%;
+}
+
+/*sisterhood*/
+
+#sisterhood {
+  /* Prevent vertical gaps */
+  line-height: 0;
+  -webkit-column-count: 5;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    5;
+  -moz-column-gap:      0px;
+  column-count:         5;
+  column-gap:           0px;  
+}
+
+#sisterhood img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
+
+@media (max-width: 1200px) {
+  #sisterhood {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  }
+}
+@media (max-width: 1000px) {
+  #sisterhood {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+@media (max-width: 800px) {
+  #sisterhood {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  #sisterhood {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
+
+/*pnm letter*/
+
+#carliandscass {
+    width: 25%;
+    padding-top: 2em;
+}
+
+#carliandscass img{
+    width: 100%;
+}
+
+#pnms {
+    width: 70%;
+}
+
+/*recruitment schedule*/
+#schedule h5{
+    margin-top: -3em;
+    font-size: 16px;
+    font-style: italic;
+    color: rgb(128, 128, 128);
+}
+
+#schedule {
+    width: 50%;
+    padding-right: 0;
+}
+
+#girls {
+    width: 30%;
+    padding: 4em 4em 0 0;
+}
+
+#girls img {
+    width: 100%;
+}
+
+/*faqs and tips*/
+#faqs h5{
+    margin-top: -2em;
+    font-size: 16px;
+    color: rgb(128, 128, 128);
+}
+
+/* sponsorship */
+#formpic {
+    width: 25%;
+    padding-right: 0;
+    padding-top: 4em;
+}
+
+#formpic img{
+    width: 100%;
+}
+
+#form {
+    width: 45%;
+    padding-left: 0;
+}
+
+#form h2, h5{
+    font-size: 18px;
+}
+
+#form h6 {
+    margin-bottom: 0;
+    font-size: 32px;
+}
+
+/*involvement*/
+#list {
+    margin: auto;
+    padding-left: 6em;
+    padding-right: 2em;
+}
+
+.col {
+    font-size: 12px;
+    width: 40%;
+    padding: 2em;
+    height: 60em;
+}
+
+.col h6 {
+    margin-bottom: 1em;
+}
+
+.col img {
+    width: 80%;
+    padding: 1em;
+}
+
+#bball img{
+    width: 100%;
+}
+
+#icons {
+    bottom: 15px;
+    right: 40px;
+    width: 5px;
+    position: fixed;
+    z-index: 900;
+}
+
+#icons img {
+    padding: 3px;
+    width: 30px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    header h2 {
+        padding-top: 1em;
+    }
+    
+    .left {
+        float: none;
+    }
+    
+    .right {
+        float: none;
+    }
+    
+    #jackets {
+        width: 90%;
+        margin:auto;
+    }
+    
+    #description {
+        width: 100%;
+        
+    }
+    
+    hr {
+        margin-top: 1em;
+    }
+    
+    #funfacts {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    
+    #motto {
+        width: 100%;
+        margin-top: 0;
+    }
+    
+    #gridpictures {
+        float: none;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .gridpic {
+        float: none;
+        position: relative;
+        padding: 1em;
+        display: block;
+        height: 100%;
+        width: 50%;
+        margin:auto;
+    }
+    
+    #ayah {
+        width: 70%;
+        margin: auto;
+    }
+    
+    #letter {
+        width: 100%;
+    }
+    
+    .member {
+        width: 90%;
+    }
+    
+    .col {
+        height: auto;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        padding-top: 0;
+        font-size: 100%;
+        width: 100%;
+        padding-left: 0;
+    }
+    
+    .col img {
+        width: 80%;
+        padding: 1em;
+    }
+    
+    #links {
+        display: none;
+    }
+    
+    #hamburger {
+        visibility: visible;
+        left: 30px;
+        top: 25px;
+        margin: 0;
+        text-align: left;
+        position: absolute;
+    }
+    
+    #dgtitle {
+        z-index: 500;
+        position: relative;
+    }
+    
+    .overlay {
+        visibility: visible;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        left: 0;
+        background-color: rgb(255,255,255);
+        background-color: rgba(255,255,255, 0.8);
+        overflow-x: hidden;
+        transition: 0.5s; 
+    }
+
+    .overlay-content {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .overlay a {
+        padding-bottom: 1em;
+        text-decoration: none;
+        font-size: 42px;
+        color: #222;
+        display: block;
+        transition: 0.3s;
+        text-transform: uppercase;
+    }
+
+    .overlay a:hover, .overlay a:focus {
+        color: #9DCFE5;
+    }
+
+    .overlay .closebtn {
+        position: absolute;
+        top: 20px;
+        left: 45px;
+        font-size: 60px;
+    }
+
+    .drop {
+        display: none;
+        padding: 0 0 1em 0;
+    }
+    
+    .drop a{
+        font-size: 26px;
+    }
+    
+    .histgrid {
+        float: none;
+        margin: auto;
+        width: 100%;
+    }
+    
+    #vintage img {
+        width: 100%;
+        margin: auto;
+    }
+    
+    #carliandscass {
+        width: 100%;
+        text-align: center;
+
+    }
+    
+    #carliandscass img {
+        width: 50%;
+
+    }
+    
+    #pnms {
+        width: 100%;
+    }
+    
+    #girls {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    
+    #girls img {
+        width: 80%;
+    }
+    
+    #schedule {
+        width: 80%;
+    }
+    
+    #formpic {
+        width: 70%;
+        margin: auto;
+        padding: 0 6em 0 6em;
+    }
+    
+    #form {
+        width: 80%;
+        padding: 0 6em;
+        margin: auto;
+    }
+    
+    #nav {
+        padding-bottom: 1em;
+        margin-bottom: 0;
+    }
+
+    @media screen and (max-height: 450px) {
+      .overlay a {font-size: 20px}
+      .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+      }
+    }
+}
+
+@media screen and (max-width:626px) {
+    #nav {
+        padding-bottom: 2em;
+    }
+    
+    header h2 {
+        font-size: 48px;
+        padding-top: .5em;
+        padding-bottom: 1em;
+    }
+    
+    header h3 {
+        padding-bottom: 0em;
+        font-size: 28px;
+    }
+    
+    header {
+        margin-bottom: 0em;
+    }
+    
+    #welcome {
+        margin-top: 0em;
+    }
+    
+    .content {
+        padding: 2em;
+    }
+}
